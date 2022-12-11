@@ -14,7 +14,6 @@
     }
     ::-webkit-scrollbar-thumb {
     background: rgb(238, 115, 176);
- 
     }
     ::-webkit-scrollbar-corner {
     background: rgb(0, 0, 0);
@@ -51,7 +50,7 @@
     b,strong{
     font-weight:700;
     }
-    p,li{
+    p{
     line-height:1.4em;
     letter-spacing:0.08em;
     }
@@ -63,13 +62,12 @@
     font-style:normal;
     }
     label{
-    color:#15101c;
+    color:#ffffff;
     font-weight:700;
     font-size:0.8em;
     display:block;
     margin:10px 0;
     }
- 
     .title{
     font-size:2em;
     font-family: 'Ubuntu', sans-serif;
@@ -81,40 +79,24 @@
     color:rgb(47, 12, 81);
     line-height:1em;
     }
-    
 
     .container{
     width:100%;
     position:relative;
     }
-    
     .container .section_left{
     width:25%;
     padding:20px;
     background: #a13c88 ;
     color:#fff;
     }
-    
     .container .section_left img{
     width:160px;
     height:160px;
     border-radius:50%;
     margin:auto;
     }
-    
-    .container .progress_container{
-    width:90%;
-    height:10px;
-    border-radius:20px;
-    background:#1e1e1e;
-    }
-    
-    .container .progress_container .progress_bar{
-    background:#3399ff;
-    border-radius:20px;
-    height:10px;
-    }
-    
+
     .container .section_right{
     padding:30px;
     width:75%;
@@ -123,19 +105,13 @@
     top:0;
     right:0;
     }
-    
     .container .section_right table{
     width:100%;
     }
-    
     .container .section_right table td{
     padding:10px;
     }
-    
     .container .section_right table td:nth-child(1){
     width:20%;
     font-weight:bold;
     }
-    
-
-    
